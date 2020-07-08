@@ -1,0 +1,49 @@
+body{
+    background: #e8f3f8;
+}
+
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 40px;
+    color: steelblue;
+}
+
+form{
+    margin: 20px auto;
+    width: 320px;
+    color: steelblue
+}
+
+input{
+    padding: 10px;
+    font-size: 18px;
+}
+
+input[type="text"] {
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px solid steelblue;
+    background: #FAF6D9;
+}
+
+input[type="submit"] {
+    width: 80px;
+    height: 45px;
+    border: none;
+    background: steelblue;
+    color:white;
+}
+
+input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+
+input:focus{
+    background: white;
+}

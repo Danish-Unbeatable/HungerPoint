@@ -1,0 +1,114 @@
+body{
+    background: pink;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    margin: 0px;
+    padding: 0 0 20px;
+    color: black;
+    text-align: center;
+    font-family: monospace;
+    font-size: 50px;
+}
+
+header{
+    background: pink;
+    height: 70px;
+}
+
+b{
+    text-align: center;
+    font-family: serif;
+    font-size: 40px;
+    color: black;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color: #F0c330;
+    transition: 0.5s;
+}
+
+
+form{
+    margin: 20px auto;
+    width: 320px;
+    color: steelblue;
+}
+
+input{
+    padding: 10px;
+    font-size: 18px;
+}
+
+input[type="text"] {
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px solid steelblue;
+    background: #FAF6D9;
+}
+
+input[type="email"] {
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px solid steelblue;
+    background: #FAF6D9;
+}
+
+input[type="number"] {
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 6px solid steelblue;
+    background: #FAF6D9;
+}
+
+.textarea {
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px solid steelblue;
+    background: #FAF6D9;
+        font-size: 32px;
+
+}
+input[type="submit"] {
+    width: 80px;
+    height: 45px;
+    border: none;
+    background: steelblue;
+    color:white;
+}
+
+input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+
+input:focus{
+    background: white;
+}
+
+footer{
+    
+    min-height: 50px;
+    margin-top: 80px;
+    clear: both;
+    font-size: 18px;
+    text-align: center;
+    
+}
+        
+    

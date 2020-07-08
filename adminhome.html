@@ -1,0 +1,187 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.mon.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!--get bootstrap dependencies-->
+<link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<!--font awesome dependencies-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"> </script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<title>Canteen management</title>
+   <!-- <link rel="stylesheet" type="text/css" href="style1.css">-->
+    <style>
+        body,html{
+            height:100%;
+            margin: 0px;
+            padding: 0px;
+            background-image: url("bg.jpeg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+/*  background-repeat: no-repeat;*/
+  background-size: cover;
+
+        }
+
+        h1{
+            margin: 0px;
+            padding: 0 0 20px;
+            color: white;
+            text-align: center;
+            font-family: arial;
+            font-size: 50px;
+            font-weight:bold;
+        }
+        .links a{
+            text-decoration:none;
+            font-family: arial;
+        }
+        header{
+            background: red;
+            height: 70px;
+        }
+        footer{
+            
+            min-height: 50px;
+            margin-top: 80px;
+            clear: both;
+            font-size: 18px;
+            text-align: center;
+            color:white;
+            
+        }
+        .card{
+            border:1px solid #333;
+            background-color:#ffff;
+            border-radius:5px;
+            padding:16px;
+            margin-top:10px;
+            
+            
+        }
+        .topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+#search{
+     margin-top:10px;
+           
+}
+    </style>
+    </head>
+    
+<body>
+    <div id="container">
+        <header>
+            <h1><center>HungerPoint</center></h1>
+        </header>
+        <div class="topnav">
+          <a href="adminhome.html">Home</a>
+          <a href="adbrkfast.php">Add Breakfast</a>
+          <a href="addlunch.php">Add Lunch</a>
+          <a href="adddinner.php">Add Dinner</a>
+          <a href="adddeserts.php">Add Desserts</a>
+          <a href="view.php">View Orders</a>
+          <a href="view_payment.php">View Payments</a>
+          
+          
+        </div>
+
+        </div>
+        <div class="container">
+            <input type="text" placeholder="Search.." name="search" id="search" class="form-control">
+      
+        <div class="row">
+        
+            <div class="col-md-4 col-lg-4 col-sm-12" >
+                
+                    <div class="card">
+                        <h3 class="card-title bg-info text-white p-2 text-uppercase text-center">Breakfast</h3>
+                        <div class="card-body">
+                            <img src="Breakfastt.jpeg" class="img-fluid ">
+                            <br><br>
+                            <a href="adbrkfast.php" class="btn btn-primary">Add Breakfast</a>
+                            
+                        </div>
+                    </div>
+                    
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-12" >
+                
+                    <div class="card">
+                        <h3 class="card-title bg-info text-white p-2 text-uppercase text-center">Lunch</h3>
+                        <div class="card-body">
+                            <img src="Lunch.jpeg" class="img-fluid ">
+                            <br><br>
+                            <a href="addlunch.php" class="btn btn-primary">Add Lunch</a>
+                            
+                        </div>
+                    </div>
+                    
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-12" >
+                
+                    <div class="card">
+                        <h3 class="card-title bg-info text-white p-2 text-uppercase text-center">Dinner</h3>
+                        <div class="card-body">
+                            <img src="Dinner.jpeg" class="img-fluid ">
+                            <br><br>
+                            <a href="adddinner.php" class="btn btn-primary">Add Dinner</a>
+                            </div>
+                    </div>
+                    
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-12" >
+                
+                    <div class="card">
+                        <h3 class="card-title bg-info text-white p-2 text-uppercase text-center">Desserts</h3>
+                        <div class="card-body">
+                            <img src="desert.jpg" class="img-fluid ">
+                            <br><br>
+                            <a href="adddeserts.php" class="btn btn-primary">Add Desserts</a>
+                            
+                            </div>
+                    </div>
+                    
+            </div>
+        </div>
+        
+        </div>
+        </body>
+        </html>
